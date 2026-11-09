@@ -15,13 +15,13 @@ BFS is excellent for finding the shortest path in an unweighted graph. Let's see
 
 **Questions:**
 1. If you run a standard BFS starting at Node $A$, looking for Node $D$, which path will the BFS algorithm discover first? Why?
-   > *Your answer here*
+   > *BFS will discover path A -> D first. BFS explores the graph layer based on the number of edges from the starting node ignoring the weights. Since Node D is a direct neighbor of Node A it is processed in the very first layer before the longer path A -> B -> C -> D*
 
 2. What is the total weight of the path BFS found? What is the total weight of the alternative path? 
-   > *Your answer here*
+   > *The total weight of the path BFS found is 100 A -> D and the total weight of the other path is 9 as A -> B -> C -> D is 2 + 3 + 4*
 
 3. How does the definition of "shortest path" change when moving from unweighted graphs to weighted graphs?
-   > *Your answer here*
+   > *The definition of shortest path changes with the weighted graph and unweighted graph as the shortest path weighted is the total number of weights you can get and the shortest in an unweighted is the minimum number of spaces you have to move*
 
 ---
 
