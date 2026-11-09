@@ -73,6 +73,9 @@ Trace Dijkstra's algorithm starting from Node $A$ to find the shortest path to N
 4. **The Trap:** Explain exactly *why* Dijkstra's algorithm failed to find the correct shortest path in this scenario.
    > *The algorithim is practically a greedy algorithim that focuses on the belief that the edge weights are non negative so adding a negative weight makes the algorithim think that path is superior.*
 
+5. Updated graph
+   > *The algorithim chooses the wrong path here because 1 is greater than -5 that could be discovered if it didn't just skip over it.*
+
 ---
 
 ## Part 4: Implementing Dijkstra's Algorithm
