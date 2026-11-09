@@ -62,16 +62,16 @@ Dijkstra's algorithm relies on an assumption about the weights. Let's see what h
 Trace Dijkstra's algorithm starting from Node $A$ to find the shortest path to Node $C$.
 
 1. Which node does Dijkstra's algorithm visit first after $A$?
-   > *Your answer here*
+   > *The Dijkstra's algorithim picks B as the distance is 2 and the distance to C is 5 and it is similar to a greedy algorithim*
 
 2. What will Dijkstra's algorithm declare as the shortest path to $C$, and what is its weight?
-   > *Your answer here*
+   > *When visiting B the current distance is 2 the algorithim looks at the distance to C which is 2+(-4) since -2 is less than the distance of 5 it will choose the shortest path with a weight of -2*
 
 3. Look at the graph manually. What is the *actual* shortest path from $A$ to $C$, and what is its total weight? 
-   > *Your answer here*
+   > *The side between B and C has the shortest distance based on weight and would be able to do B to C to create a negative cycle forever that would go infinitely however the shortest real distance is A to C node wise*
 
 4. **The Trap:** Explain exactly *why* Dijkstra's algorithm failed to find the correct shortest path in this scenario.
-   > *Your answer here*
+   > *The algorithim is practically a greedy algorithim that focuses on the belief that the edge weights are non negative so adding a negative weight makes the algorithim think that path is superior.*
 
 ---
 
